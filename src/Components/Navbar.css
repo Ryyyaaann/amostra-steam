@@ -1,0 +1,55 @@
+.navbar {
+    background-color: #ffffff;
+    display: flex; /* Adiciona display flex para os itens da navbar */
+    align-items: center; /* Centraliza verticalmente os itens na navbar */
+    justify-content: center;
+    height: 60px; /* Ajusta a altura da navbar */
+    padding: 0 20px; /* Adiciona espaçamento interno nos lados da navbar */
+    position: relative; /* Para usar z-index */
+    z-index: 2;
+    
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Adiciona display flex para os itens da navbar-nav */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px; /* Adiciona bordas arredondadas */
+    transition: background-color 0.3s; /* Adiciona transição suave de cor de fundo */
+  }
+  
+  .nav-link:hover {
+    background-color: #0a0a0a;
+    color: #fff;
+  }
+  
+  .login-section {
+    margin-left: auto; /* Empurra a seção de login para a direita */
+  }
+  
+  .login-section .nav-link {
+    color: #fff;
+    background-color: #007bff; /* Cor de fundo do botão de login */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .login-section .nav-link:hover {
+    background-color: #0056b3; /* Cor de fundo do botão de login ao passar o mouse */
+  }
+  

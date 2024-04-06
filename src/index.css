@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  background-image: url('assets/download-removebg-preview.png'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho para sua imagem */
+  background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+  background-size: 300px; /* Redimensiona a imagem para cobrir todo o fundo */
+  background-position: top right; /* Posiciona a imagem à direita no centro */
+  position: relative; /* Para usar z-index */
+  z-index: 1;
+}
